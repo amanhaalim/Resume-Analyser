@@ -1,4 +1,5 @@
 Resume_analyzer/
+
 │
 ├── 📄 QUICKSTART.md              ← Start here! 5-minute setup guide
 ├── 📄 README.md                  ← Full documentation
