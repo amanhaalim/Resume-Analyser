@@ -1,4 +1,37 @@
-Resume AI Analyzer Pro - Backend API
+Resume_analyzer/
+│
+├── 📄 QUICKSTART.md              ← Start here! 5-minute setup guide
+├── 📄 README.md                  ← Full documentation
+├── 📄 DEPLOYMENT.md              ← Production deployment guide
+│
+├── 🐍 main.py                    ← FastAPI application (main entry point)
+├── 🐍 config.py                  ← Configuration settings
+├── 🐍 test_api.py                ← Test suite
+│
+├── 📦 requirements.txt           ← Python dependencies
+├── 🐳 Dockerfile                 ← Docker container definition
+├── 🐳 docker-compose.yml         ← Docker compose setup
+├── 🔧 setup.sh                   ← Quick setup script
+├── 📝 .gitignore                 ← Git ignore rules
+│
+├── 📂 data/
+│   ├── __init__.py
+│   └── 🎯 job_database.py        ← 100+ job roles database (31KB)
+│
+├── 📂 utils/
+│   ├── __init__.py
+│   ├── 🧠 skill_extractor.py     ← NLP-based skill extraction (9KB)
+│   ├── 🎯 role_matcher.py        ← Intelligent role matching (10KB)
+│   ├── 📊 ats_analyzer.py        ← ATS scoring engine (15KB)
+│   └── 🔍 jd_matcher.py          ← Job description matcher (12KB)
+│
+└── 📂 services/
+    ├── __init__.py
+    ├── 📄 resume_parser.py       ← Multi-format parser (7KB)
+    └── 🎛️ analysis_service.py    ← Main orchestration (12KB)
+
+
+Resume AI Analyzer - Backend API
 A production-ready, AI-powered resume analysis API with comprehensive job market coverage (100+ roles) and advanced ATS optimization.
 🚀 Key Features
 Comprehensive Analysis
