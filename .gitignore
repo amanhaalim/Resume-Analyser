@@ -1,0 +1,79 @@
+# =========================
+# Python / Bytecode
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Build / Packaging
+# =========================
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================
+# Logs / Cache
+# =========================
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# OS junk files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
+.env.local
+.env.* 
+
+# =========================
+# Application generated files
+# =========================
+uploads/
+analysis_result.json
+
+# Ignore user documents / media (CVs, images)
+*.pdf
+*.docx
+*.png
+*.jpg
+*.jpeg
+
+# =========================
+# Docker (optional)
+# =========================
+.dockerignore

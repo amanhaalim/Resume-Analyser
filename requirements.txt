@@ -1,0 +1,29 @@
+# Core Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+
+# Document Processing
+pdfplumber==0.10.3
+python-docx==1.1.0
+Pillow==10.1.0
+
+# OCR Support
+pytesseract==0.3.10
+opencv-python==4.8.1.78
+
+# Data Processing
+numpy==1.26.2
+pandas==2.1.3
+
+# Optional: Advanced NLP (uncomment if needed)
+# scikit-learn==1.3.2
+# nltk==3.8.1
+
+# Development & Testing
+pytest==7.4.3
+httpx==0.25.2
+
+# Production
+gunicorn==21.2.0
